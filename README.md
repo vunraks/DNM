@@ -1,0 +1,5 @@
+Главная страница ![image](https://github.com/user-attachments/assets/b2c5be2a-74ef-47c4-b1e9-a8b1408f6552)
+Страница входа + рабочие кнопки соц.сетей ![image](https://github.com/user-attachments/assets/9627975a-9627-40db-8cd1-8ff3c7d66e92)
+Страница регистрации + рабочие кнопки соц.сетей ![image](https://github.com/user-attachments/assets/738bf592-62d0-4d94-8d70-4641d7a36f36)
+О компании + iframe(Видео) ![image](https://github.com/user-attachments/assets/77811d52-5530-4946-ab55-827f7b15d35d)
+Сообщить о баге ![image](https://github.com/user-attachments/assets/7481303e-553f-48bd-90e7-ea7517881cce)
