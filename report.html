@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сообщить о баге</title>
+    <link rel="stylesheet" href="report.css">
+    <link rel="icon" href="картинки/Vector (5).png" type="image/x-icon">
+</head>
+<body>
+    <video autoplay loop muted><source src="картинки/2b5d1381949807976c1bdf62881a5e8894b9f089.mp4" type="video/mp4"></video>
+<div class="container">
+
+    <label for="prefix">Префикс:</label>
+    <select id="prefix" name="prefix">
+        <option value="">Выберите подходящий префикс</option>
+        </select>
+
+    <label for="title">Заголовок:</label>
+    <input type="text" id="title" name="title" placeholder="Сформулируйте в нескольких словах о чём ваша тема">
+
+    <div class="editor-toolbar">
+        </div>
+
+
+    <label for="content">Скриншот/видео недочета:</label>
+    <textarea id="content" name="content" rows="10"
+              placeholder="Полная ссылка на страницу, где возникает проблема:
+Как воспроизвести недочет:">
+    </textarea>
+
+    <label>Теги:</label>
+    <input type="text" placeholder="Несколько тегов могут быть разделены запятыми">
+
+    <div class="options-group">
+        <button>Создать тему</button>
+        <button>Предварительный просмотр</button>
+
+        <label><input type="checkbox"> Отложить публикацию темы</label>
+        <input type="date" value="2025-01-28">
+        <input type="time" value="21:10">
+
+
+    </div>
+
+    <div class="options-group">
+        <label>Настройки:</label>
+
+        <label><input type="checkbox"> Не оповещать подписчиков о создании темы</label>
+
+        <label><input type="checkbox"> Скрывать контакты в теме</label>
+        <label><input type="checkbox"> Разрешить просить "Личный" (если есть "Халя" в теме)</label>
+
+        <label><input type="checkbox" checked> Подписаться на тему…</label>
+        <label><input type="checkbox" disabled> и получать уведомления на электронную почту</label> </div>
+
+
+    <div class="options-group">
+      <label><input type="checkbox">Добавить голосование</label>
+    </div>
+
+</div>
+
+</body>
+</html>

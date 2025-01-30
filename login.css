@@ -1,0 +1,167 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #1e1e1e;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+    background-image: url(gif);
+  }
+  
+  .login-modal {
+    width: 400px;
+    background-color: #2c2c2c;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    position: relative;
+  }
+  
+  .modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 20px;
+    color: #37c77f;
+    
+  }
+  
+  .close-button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+}
+
+  
+  .modal-title {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .social-buttons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    gap: 10px;
+  }
+  
+  .social-button {
+    background-color: #444;
+    border: none;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    cursor: pointer;
+
+  }
+  
+  .google { background-color: #db4437; }
+  .vk { background-color: #4c75a3; }
+  .telegram { background-color: #0088cc; }
+  .discord { background-color: #7289da; }
+  .custom { background-color: #37c77f; }
+
+.social-buttons button img {
+    width: 40px;
+    margin-top: 8px;
+ }
+ .social-buttons a img{
+  width: 50px;
+ }
+
+
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; 
+  }
+  
+  .input-field {
+    width: 340px;
+    padding: 10px;
+    background-color: #333;
+    border: 1px solid #555;
+    border-radius: 5px;
+    color: white;
+  }
+  
+  .password-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .password-toggle {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 5px;
+  }
+  
+  .form-options {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+  }
+  
+  .forgot-password {
+    color: #37c77f;
+    text-decoration: none;
+  }
+  
+  .submit-button {
+    padding: 10px;
+    background-color: #37c77f;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .register-link {
+    text-align: center;
+    color: #37c77f;
+    text-decoration: none;
+    margin-top: 10px;
+  }
+  
+.logo.logo-icon{
+width: 220px;
+height: 20px;
+
+}
+
+
+
+
+video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+}

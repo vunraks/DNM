@@ -1,0 +1,85 @@
+body {
+    font-family: sans-serif;
+    background-color: #222;
+    color: #eee;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #444;
+    border: 1px solid #555;
+    color: #eee;
+    border-radius: 5px;
+    box-sizing: border-box; /* Include padding and border in element size */
+}
+
+.editor-toolbar {
+    background-color: #37c77f;
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.editor-toolbar img { /* Style the icons or buttons in the toolbar */
+    height: 20px;
+    margin: 2px;
+    cursor: pointer; /* Indicate they're clickable */
+    filter: invert(1); /* Make icons white to stand out against background */
+}
+
+.options-group {
+    margin-bottom: 20px;
+}
+
+.options-group label {
+    display: flex; /* Align checkbox and label */
+    align-items: center;
+    margin-bottom: 5px;
+    cursor: pointer; /* Indicate the label is clickable */
+}
+
+input[type="checkbox"] {
+    margin-right: 5px;
+    accent-color: green;  /* Customize checkbox color */
+}
+
+
+button {
+    background-color: #656666; /* Example color */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #37c77f; /* Darker color on hover */
+}
+
+video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+  }
